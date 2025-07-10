@@ -4,7 +4,7 @@
 
 ## 📄 Overview
 
-This repository implements a hybrid architecture that uses a **ResNet encoder** within a **U-Net decoder framework** to perform semantic segmentation of brain tumours in MRI images. The model is inspired by the paper:
+This repository implements a hybrid architecture that uses a **ResNet encoder** within a **U-Net decoder framework** to perform semantic segmentation of brain tumours in MRI images.
 
 **"ResNet Encoder Based UNet for Brain Tumour Segmentation"**  
 *2025 International Conference on Data Science and Business Systems (ICDSBS)*  
@@ -42,4 +42,15 @@ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
+
+### 🧠 Training
+Run the interactive Python notebook *BrainTS_Training.ipynb* in Google Colab or Kaggle Coding Playground.
+Download the trained model and  stored in the folder **BestModels/**
+
+### 📊 Evaluation
+```
+streamlit run app.py
+```
+
+
 
